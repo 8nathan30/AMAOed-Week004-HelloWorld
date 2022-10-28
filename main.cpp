@@ -28,7 +28,7 @@ int main() {
     cout << "Your Average is: " << average << endl;
     cout << "Remarks: ";
     
-    if (average > 75) {
+    if (average >= 75) {
         cout << "You Passed";
     } else {
         cout << "You Failed";
