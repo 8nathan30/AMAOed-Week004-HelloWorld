@@ -21,12 +21,23 @@ int main() {
         case 85: case 84: case 83: case 82: case 81:
             cout << "B+ \n";
             break;
-        case 80:
+        case 80: case 79: case 78: case 77: case 76: case 75:
             cout << "B \n";
             break;
-        case 68:
+        case 74: case 73: case 72: case 71: case 70: case 69:
             cout << "B- \n";
-        case 63:
+            break;
+        case 68: case 67: case 66: case 65: case 64: case 63:
+            cout << "C+ \n";
+            break;
+        case 62: case 61: case 60: case 59: case 58: case 57:
+            cout << "C \n";
+            break;
+        case 56: case 55: case 54: case 53: case 52: case 51: case 50:
+            cout << "C- \n";
+            break;
+        default:
+            cout << "F \n";
     }
 
     return 0;
