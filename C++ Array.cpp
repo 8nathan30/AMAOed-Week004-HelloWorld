@@ -17,6 +17,5 @@ int main() {
 	
 	average=(float)sum/6;
 	cout<<"\nTheir Average = "<<average;
-	
     return 0;
 }
